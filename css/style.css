@@ -1,0 +1,90 @@
+* {  
+	margin: 0;  
+	padding: 0;  
+}
+
+body {  
+	font: 71.5%/1.5 Helvetica Neue, Sans-Serif;  
+	background: #eee;  
+}
+
+#container {
+	margin: 100px auto;
+	width: 688px;
+}
+
+#write {  
+	margin: 0 0 5px;  
+	padding: 5px;  
+	width: 671px;  
+	height: 200px;  
+	font: 1em/1.5 Verdana, Sans-Serif;  
+	background: #fff;  
+	border: 1px solid #f9f9f9;
+	border-radius: 5px;
+}
+
+#osk-ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+	#osk-ul li {
+		float: left;
+		margin: 0 5px 5px 0;
+		width: 40px;
+		height: 40px;
+		line-height: 40px;
+		text-align: center;
+		background: #fff;
+		border: 1px solid #f9f9f9;
+		border-radius: 5px;
+	}
+
+		.firstitem {
+			clear: left;
+		}
+
+		#osk-ul .tab, #osk-ul .bksp {
+			width: 70px;
+		}
+
+		#osk-ul .caps {
+			width: 80px;
+		}
+
+		#osk-ul .enter {
+			width: 77px;
+		}
+
+		#osk-ul .left-shift {
+			width: 95px;
+		}
+
+		#osk-ul .right-shift {
+			width: 109px;
+		}
+
+		.lastitem {
+			margin-right: 0;
+		}
+
+	.uppercase {
+		text-transform: uppercase;
+	}
+
+	#osk-ul .space {
+		width: 681px;
+	}
+
+	#osk-ul .on {
+		display: none;
+	}
+
+	#osk-ul li:hover {
+		position: relative;
+		top: 1px; left: 1px;
+		border-color: #e5e5e5;
+		cursor: pointer;
+	}
